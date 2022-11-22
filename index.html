@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      .middle {
+        width: 500px;
+        height: 500px;
+        border: 2px solid blue;
+        border-radius: 15px;
+        margin: 0 auto;
+        padding: 100px;
+        box-sizing: border-box;
+        background-color: lightgreen;
+      }
+      input{
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 8px;
+      }
+      button{
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 8px;
+      }
+      button:hover{
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>WELCOME TO LOGIN PAGE</h1>
+    <hr />
+
+    <div class="middle">
+      Username:<br />
+      <input type="text" id="username" placeholder="xyz" />
+      <br/>
+      <br>
+      password:<br/>
+      <input type="text" id="password" placeholder="1234" />
+      <br>
+      <br>
+      <button onclick="login()">Submit</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
